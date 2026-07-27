@@ -42,7 +42,7 @@ A **real-time AI fitness coach** built with Streamlit that watches you exercise 
 | **Numerical / data processing** | NumPy, pandas |
 | **AI coaching (LLM)** | [Groq API](https://groq.com/) (`groq` Python SDK) for real-time LLM-generated coaching feedback |
 | **Text-to-Speech** | [gTTS](https://pypi.org/project/gTTS/) (Google Text-to-Speech) |
-| **Persistence** | Local database layer for users' exercise history (custom repository module) |
+| **Persistence** | Local database layer for users' exercise history (SQLite) |
 | **Config / secrets management** | `python-dotenv`, Streamlit secrets |
 | **Styling** | Custom CSS + custom font injection (`static/style.css`, `static/AdobeClean.otf`) |
 
